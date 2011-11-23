@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Skeleton::Rails::VERSION
   s.authors     = ["Vlad Shvedov"]
   s.email       = ["vshvedov@heliostech.hk"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/helios-technologies/skeleton-rails"
   s.summary     = %q{Skeleton CSS for Rails}
   s.description = %q{A gem, which injects Skeleton CSS framework functionality into Ruby on Rails application}
 
