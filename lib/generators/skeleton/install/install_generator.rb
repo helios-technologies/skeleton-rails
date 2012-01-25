@@ -21,10 +21,20 @@ else
 
         desc "This generator installs Skeleton CSS framework to Asset Pipeline"
         def add_assets
-          insert_into_file "app/assets/javascripts/application.js", "//= require tabs\n", :after => "jquery_ujs\n"
-          insert_into_file "app/assets/stylesheets/application.css", " *= require base\n *= require layout\n *= require skeleton\n", :after => "require_self\n"
-        end
+          css_inject = " *= require base\n *= require layout\n *= require skeleton\n"
+          app_scss = File.join(::Rails.root, 'app', 'assets', 'stylesheets', 'application.scss')
+          app_css = File.join(::Rails.root, 'app', 'assets', 'stylesheets', 'application.css')
 
+          insert_into_file File.join(::Rails.root, 'app', 'assets', 'javascripts', 'application.js'), "//= require tabs\n", :after => "jquery_ujs\n"
+
+          if File.exist?(app_scss)
+            insert_into_file app_scss, css_inject, :after => "require_self\n"
+          elsif File.exist?(app_css)
+            insert_into_file app_css, css_inject, :after => "require_self\n"
+          else
+            say_status('Nor application.css/application.scss could not be found!')
+          end
+        end
       end
     end
   end
