@@ -25,8 +25,6 @@ else
           app_scss = File.join(::Rails.root, 'app', 'assets', 'stylesheets', 'application.scss')
           app_css = File.join(::Rails.root, 'app', 'assets', 'stylesheets', 'application.css')
 
-          #insert_into_file File.join(::Rails.root, 'app', 'assets', 'javascripts', 'application.js'), "//= require tabs\n", :after => "jquery_ujs\n"
-
           if File.exist?(app_scss)
             insert_into_file app_scss, css_inject, :after => "require_self\n"
           elsif File.exist?(app_css)
