@@ -1,7 +1,5 @@
 # skeleton-rails
 
-![Skeleton](http://i.minus.com/iH51VXxPPD1jJ.png)
-
 [Skeleton](http://getskeleton.com) is a Beautiful Boilerplate for Responsive, Mobile-Friendly Development, a CSS framework.
 
 Currently Skeleton supports:
