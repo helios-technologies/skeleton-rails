@@ -5,8 +5,8 @@ require "skeleton-rails/version"
 Gem::Specification.new do |s|
   s.name        = "skeleton-rails"
   s.version     = Skeleton::Rails::VERSION
-  s.authors     = ["Vlad Shvedov"]
-  s.email       = ["vshvedov@heliostech.hk"]
+  s.authors     = ["Helios Technologies"]
+  s.email       = ["support@heliostech.fr"]
   s.homepage    = "https://github.com/helios-technologies/skeleton-rails"
   s.summary     = %q{Skeleton CSS for Rails}
   s.description = %q{A gem, which injects Skeleton CSS framework functionality into Ruby on Rails application}
