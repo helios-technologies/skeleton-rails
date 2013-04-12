@@ -36,12 +36,6 @@ command. This should add:
 = require skeleton
 ```
 
-into `app/assets/stylesheets/application.css`. and:
-
-```ruby
-= require tabs
-```
-
-into `app/assets/javascripts/application.js`
+into `app/assets/stylesheets/application.css`.
 
 That's it, have fun!
