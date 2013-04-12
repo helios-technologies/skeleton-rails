@@ -32,7 +32,7 @@ else
           elsif File.exist?(app_css)
             insert_into_file app_css, css_inject, :after => "require_self\n"
           else
-            say_status('Nor application.css/application.scss could not be found!')
+            say_status('','Nor application.css/application.scss could not be found!')
           end
         end
       end
