@@ -1,7 +1,9 @@
 require 'rails/generators'
 require 'rails'
 
-if ::Rails.version < "3.1" || !::Rails.application.config.assets.enabled
+if ::Rails.version < "3.1" || 
+   (::Rails.version < "4.0" && !::Rails.application.config.assets.enabled) ||
+   (::Rails.version >= "4.0" && !(::Rails.application.config.assets.enabled.nil? || ::Rails.application.config.assets.enabled))
   module Skeleton
     module Generators
       class InstallGenerator < ::Rails::Generators::Base
