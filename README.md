@@ -3,14 +3,11 @@
 [Skeleton](http://getskeleton.com) is a Beautiful Boilerplate for Responsive, Mobile-Friendly Development, a CSS framework.
 
 Currently Skeleton supports:
-
-* Latest Chrome (Mac/PC)
-* Firefox 4.0, 3.6, 3.5, 3.0 (Mac/PC)
-* Latest Safari
-* IE9, IE8, IE7
-* iPhone (Retina)
-* Droid (Charge/Original)
-* iPad
+- Chrome latest
+- Firefox latest
+- Opera latest
+- Safari latest
+- IE latest
 
 `skeleton-rails` is a gem for Rails >=3.1 which injects Skeleton CSS framework functionality into Ruby on Rails application, by Helios Technologies.
 
