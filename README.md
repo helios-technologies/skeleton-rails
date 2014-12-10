@@ -10,23 +10,26 @@ Currently Skeleton supports:
 - Safari latest
 - IE latest
 
-`skeleton-rails` is a gem for Rails >=4 which injects Skeleton CSS framework functionality into Ruby on Rails application, by Helios Technologies.
+`skeleton-rails` injects version `2.0` of the Skeleton CSS framework functionality into Ruby on Rails application, by Helios Technologies.
 
 ### Installation
 
-Rails >= 4 is required.
-If you are still using rails 3 then please use version `0.x` of this gem.
+__Rails >= 4 is required.__
+
+* If you are still using `Rails 3.x` then please use version `0.x` of this gem.
 
 
 Add to your `Gemfile`:
 
 ```ruby
-gem 'skeleton-rails'
+gem 'skeleton-rails', ~> '1.0'
 ```
 
 then run `bundle` in the console, and then run:
 
-    rails g skeleton:install
+```bash
+rails g skeleton:install
+```
 
 command. This should add:
 
