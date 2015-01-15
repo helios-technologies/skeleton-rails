@@ -10,7 +10,7 @@ Currently Skeleton supports:
 - Safari latest
 - IE latest
 
-`skeleton-rails` injects version `2.0` of the Skeleton CSS framework functionality into Ruby on Rails application, by Helios Technologies.
+`skeleton-rails` injects version `2.0.4` of the Skeleton CSS framework functionality into Ruby on Rails application, by Helios Technologies.
 
 ### Installation
 
