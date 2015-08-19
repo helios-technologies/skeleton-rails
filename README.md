@@ -22,7 +22,7 @@ __Rails >= 4 is required.__
 Add to your `Gemfile`:
 
 ```ruby
-gem 'skeleton-rails', '~> 1.0'
+gem 'skeleton-rails', '~> 0.1.0'
 ```
 
 then run `bundle` in the console, and then run:
