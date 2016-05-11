@@ -1,8 +1,6 @@
 require "skeleton-rails/version"
-require "skeleton-rails/rails/engine"
+require "skeleton-rails/engine"
 
 module Skeleton
-  module Rails
-    require 'skeleton-rails/rails/engine' if defined?(Rails)
-  end
+  require 'skeleton-rails/engine'
 end
