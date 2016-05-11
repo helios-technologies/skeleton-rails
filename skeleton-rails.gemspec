@@ -4,7 +4,7 @@ require "skeleton-rails/version"
 
 Gem::Specification.new do |s|
   s.name        = "skeleton-rails"
-  s.version     = Skeleton::Rails::VERSION
+  s.version     = Skeleton::VERSION
   s.authors     = ["Helios Technologies"]
   s.email       = ["support@heliostech.fr"]
   s.homepage    = "https://github.com/helios-technologies/skeleton-rails"
@@ -17,8 +17,4 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
-
-  # specify any dependencies here; for example:
-  # s.add_development_dependency "rspec"
-  # s.add_runtime_dependency "rest-client"
 end
