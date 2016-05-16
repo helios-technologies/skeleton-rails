@@ -1,6 +1,5 @@
 # skeleton-rails
 
-
 [Skeleton](http://getskeleton.com) is a Beautiful Boilerplate for Responsive, Mobile-Friendly Development, a CSS framework.
 
 Currently Skeleton supports:
@@ -13,11 +12,6 @@ Currently Skeleton supports:
 `skeleton-rails` injects version `2.0.4` of the Skeleton CSS framework functionality into Ruby on Rails application, by Helios Technologies.
 
 ### Installation
-
-__Rails >= 4 is required.__
-
-* If you are still using `Rails 3.x` then please use version `0.x` of this gem.
-
 
 Add to your `Gemfile`:
 
