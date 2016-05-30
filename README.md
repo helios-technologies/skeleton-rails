@@ -16,7 +16,7 @@ Currently Skeleton supports:
 Add to your `Gemfile`:
 
 ```ruby
-gem 'skeleton-rails'
+gem 'skeleton-rails', :git => 'https://github.com/helios-technologies/skeleton-rails'
 ```
 
 then run `bundle` in the console, and then run:
