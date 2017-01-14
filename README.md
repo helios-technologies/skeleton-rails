@@ -35,3 +35,21 @@ command. This should add:
 into `app/assets/stylesheets/application.css`.
 
 That's it, have fun!
+
+### Installation Without Gemfile
+
+Download Skeleton-2.0.4.zip [here](https://github.com/dhg/Skeleton/releases/download/2.0.4/Skeleton-2.0.4.zip) or see if there is a more up to date version of [skeleton](http://getskeleton.com).
+
+Unzip `Skeleton-2.0.4.zip` from your downloads folder. 
+
+Copy `Skeleton-2.0.4/css/normalize.css` & `Skeleton-2.0.4/css/skeleton.css` into your `vendor/assets/stylesheets`
+
+Add the following lines:
+
+```ruby
+*=require normalize.css
+*=require skeleton.css
+```
+into `app/assets/stylesheets/application.css` before `*=require_self`.
+
+That's it, have fun!
